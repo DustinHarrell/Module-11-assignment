@@ -1,6 +1,6 @@
 # Additive Models and Singular Design Matrices in R
 
-*ISwR exercises 12.1 and 12.3, by [Your Name], [Course], November 3, 2026*
+ISwR exercises 12.1 and 12.3, by Dustin Harrell, LIS4273.001F26, November 3, 2026
 
 This post works through two exercises from chapter 12 of *Introductory Statistics with R*. The first fits an additive model to a crossover study and compares it with the t tests we already know. The second looks at how R builds model matrices for factors, and at what happens when the design matrix is rank-deficient. All output below was produced in R with the ISwR package; for 12.3 I used `set.seed(1)` so the random response is reproducible. The full code is in [`ch12_1.R`](ch12_1.R) and [`ch12_3.R`](ch12_3.R).
 
